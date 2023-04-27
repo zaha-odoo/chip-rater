@@ -13,3 +13,10 @@ This is a simple program for Odooers to rate different kinds of chips from the k
 - Frontend: Web based GUI with JQuery (maybe OWL).
 - Backend: Python with flask for server and psycopg2 for data access.
 - Data: PostgreSQL.
+- Use cookies to prevent multiple voting. (Ideally use login)
+
+## Data Model
+
+- Chip
+    - Name
+    - Like Count (1toMany)
