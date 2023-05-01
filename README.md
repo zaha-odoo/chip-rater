@@ -19,4 +19,7 @@ This is a simple program for Odooers to rate different kinds of chips from the k
 
 - Chip
     - Name
-    - Like Count (1toMany)
+    - 1tomany
+        - UserLike
+        - UserDislike
+        - UserComment
